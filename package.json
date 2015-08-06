@@ -26,9 +26,9 @@
   "licenses": [
     "MIT"
   ],
-  "main": "dist/transparency.js",
+  "main": "index.js",
   "dependencies": {
-    "jsdom": "^1.0.0"
+    "jsdom": "~3"
   },
   "devDependencies": {
     "bower": "^1.3.12",
@@ -45,9 +45,7 @@
     "vinyl-source-stream": "^1.0.0"
   },
   "scripts": {
-    "test": "gulp test",
-    "build": "gulp build",
-    "prepublish": "bower install && gulp release"
+    "test": "gulp test"
   },
   "testling": {
     "html": "testlingSpecRunner.html",
